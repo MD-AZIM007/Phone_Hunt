@@ -12,14 +12,14 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body >
+  <body>
     <header>
       <section
         id="navbar"
         class="h-auto flex lg:p-4 md:p-4 lg:flex-row md:flex-row items-center justify-space-between mt-15"
       >
         <h3
-          class=" text-xl flex-wrap font-bold md:text-2xl lg:text-5xl text-emerald-300 mr-10 md:mr-20 lg:mr-90   "
+          class="text-xl flex-wrap font-bold md:text-2xl lg:text-5xl text-emerald-300 mr-10 md:mr-20 lg:mr-90"
         >
           Phone Hunt
         </h3>
@@ -32,13 +32,10 @@
             class="search_bar"
             placeholder="Search for something..."
           />
-          <button
-            onclick="handleSearch()"
-            class="nav-search-btn btn btn-primary"
-          >
-            Search
-          </button>
         </label>
+        <button onclick="handleSearch()" class="nav-search-btn btn btn-primary">
+          Search
+        </button>
       </section>
     </header>
 
@@ -79,7 +76,7 @@
         >
           <!-- Phone items will be dynamically inserted here -->
         </div>
-        <div id="show-all-container" class=" flex justify-center hidden">
+        <div id="show-all-container" class="flex justify-center hidden">
           <button onclick="showAllPhones()" class="btn btn-primary">
             Show all
           </button>
@@ -89,7 +86,7 @@
       <!-- model for phone item -->
 
       <!-- You can open the modal using ID.showModal() method -->
-      <dialog id="my_modal_4" class=" modal justify-center align-center">
+      <dialog id="my_modal_4" class="modal justify-center align-center">
         <div class="modal-box w-20/20 max-w-5xl">
           <h3 id="modal-title" class="text-lg font-bold">Hello!</h3>
           <div id="show-detail-container"></div>

@@ -68,12 +68,23 @@ body {
     border-radius: 10px;
     box-shadow: #3853c7 0px 20px 60px, #19ad88 -20px -20px 60px;
 }
+
+.nav-search-btn{
+  height: 50px;
+  margin-left: 10px;
+}
 @media (max-width: 600px)
 {
   #navbar {
     flex-direction: column;
-    height:150px;
+    height:170px;
     padding: 10px;
+  }
+
+  .nav-search-btn {
+    width: 100%;
+    margin: 10px 0;
+    height: 40px;
   }
 }
 
