@@ -1,4 +1,19 @@
+
+
+
+
+body {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+
 /* Search bar */ 
+
 .input {
   max-width: 190px;
 }
@@ -136,3 +151,5 @@
     color: black;
     border: none;
 }
+
+
