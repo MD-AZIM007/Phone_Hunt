@@ -11,20 +11,17 @@
       type="text/css"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
-  
   </head>
   <body>
- 
-
     <header>
       <section
         id="navbar"
-        class="flex items-center justify-space-between p-4 mt-15"
+        class="  flex items-center justify-space-between p-4 mt-15"
       >
         <h3
-          class="text-xl flex-wrap  font-bold md:text-2xl lg:text-5xl text-emerald-300 mr-10 md:mr-20 lg:mr-90"
+          class="text-xl flex-wrap font-bold md:text-2xl lg:text-5xl text-emerald-300 mr-10 md:mr-20 lg:mr-90   "
         >
+        <!-- mr-10 md:mr-20 lg:mr-90 -->
           Phone Hunt
         </h3>
         <!-- From Uiverse.io by OnlyCodeChannel -->
@@ -36,25 +33,25 @@
             class="search_bar"
             placeholder="Search for something..."
           />
-          <button onclick="handleSearch()" class="nav-search-btn btn btn-primary">
+          <button
+            onclick="handleSearch()"
+            class="nav-search-btn btn btn-primary"
+          >
             Search
           </button>
         </label>
-
-
       </section>
     </header>
 
     <main>
       <!-- find the phone section--------------------------- -->
-      <section class="mt-20 flex-wrap ">
+      <section class="mt-20 flex-wrap">
         <div
           id="find-phone-container"
-          class="flex flex-col justify-center items-center  h-170 lg:h-160 md:h-240  p-4"
+          class="flex flex-col justify-center items-center h-170 lg:h-160 md:h-240 p-4"
         >
           <h6 class="text-3xl text-teal-500">Search for a phone</h6>
-          <p class=" text-teal-500">(Samsung, Apple, Oppo)</p>
-         
+          <p class="text-teal-500">(Samsung, Apple, Oppo)</p>
         </div>
       </section>
 
@@ -108,9 +105,8 @@
     </main>
 
     <footer>
-       <p class=" text-teal-500">Developed by Md Nurul Azim</p>
+      <p class="text-teal-500">Developed by Md Azim</p>
     </footer>
-
 
     <script src="script.js"></script>
   </body>
