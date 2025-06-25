@@ -35,7 +35,8 @@ const displayPhones = (phones, isShowAll) => {
       "card",
       "bg-gray-100",
       "rgb-border-1",
-      "w-96",
+      "w-80",
+      "lg:w-96",
       "h-100",
       "shadow-sm"
     );
@@ -107,7 +108,7 @@ const showmodaltitle = (data) => {
 const showdetailscontainer = (data) => {
   const showdetailcontainer = document.getElementById("show-detail-container");
   showdetailcontainer.innerHTML = `
-        <div class="card bg-gray-100 w-96 h-140 shadow-sm mr-3">
+        <div class="card bg-gray-100 w-75 h-140 shadow-sm mr-3">
             <figure class="mt-8 justify-center align-center">
                 <img  src="${data.data.image}" alt="${data.data.name}" />
             </figure>
